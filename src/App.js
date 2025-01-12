@@ -7,11 +7,13 @@ import Footer from './components/Footer';
 
 function App() {
     return (
-        <div>
+        <div className="flex flex-col min-h-screen">
             <Header />
-            <About />
-            <Projects />
-            <Contact />
+            <main className="flex-grow">
+                <About />
+                <Projects />
+                <Contact />
+            </main>
             <Footer />
         </div>
     );

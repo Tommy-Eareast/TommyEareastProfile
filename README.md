@@ -16,7 +16,7 @@ Any feedback is greatly appreciated!
 
 # File Structure
 
-personal-profile/
+Tommyeareast-Profile/
 ├── public/
 │ ├── index.html # Main HTML file
 │ ├── favicon.ico # Site icon
@@ -27,14 +27,17 @@ personal-profile/
 │ │ ├── Projects.js # Projects section
 │ │ ├── Contact.js # Contact section
 │ │ ├── Footer.js # Footer component
-│ ├── App.js # Main App component
-│ ├── index.js # Entry point for React
+│ │ ├── UI/ # Reusable UI components
+│ │ ├── Button.js # Reusable button
+│ │ ├── Container.js # Reusable container
+│ ├── constants/ # Centralized constants
+│ │ ├── colors.js # Color palette
+│ │ ├── typography.js # Font settings
 │ ├── styles/ # CSS/SCSS files
 │ │ ├── global.css # Global styles
-│ │ ├── Header.css # Header-specific styles
-│ │ ├── About.css # About-specific styles
-│ │ ├── Projects.css # Projects-specific styles
-│ │ ├── Contact.css # Contact-specific styles
+│ ├── App.js # Main App component
+│ ├── index.js # Entry point for React
+├── tailwind.config.js # Tailwind CSS configuration
 ├── package.json # Project metadata and dependencies
 ├── .gitignore # Files to ignore in Git
 ├── README.md # Project documentation
